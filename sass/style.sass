@@ -1,0 +1,31 @@
+
+/*sass --watch sass/style.sass:css/style.css (Para compilar)*/    
+
+@use 'variables'
+@use 'mixin'
+
+*
+    font-family: 'josefin Sans', sans-serif
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+    background-color: variables.$bg-color
+    color: variables.$text-color
+
+    a
+        color: variables.$text-color
+        text-decoration: none
+        transition: 0.4s
+
+    ul
+        list-style: none
+
+.header
+    display: flex
+    justify-content: space-between
+    @include mixin.container
+
+    &-brand // .header-brand
+
