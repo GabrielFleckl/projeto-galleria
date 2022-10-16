@@ -27,12 +27,6 @@ Aqui você pode conferir o layout em suas respectivas versões. <br>
 
 ---
 
-### Versão Mobile 📱
-
-<br>
-<p align="center">
-  <img alt="layout-web" src="img/mobile.png" width="40%">
-</p>
 
 ## 🚀 Tecnologias
 
